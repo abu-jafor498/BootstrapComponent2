@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="portfolio">
+    <meta name="description" content="portfolio website ">
+    <meta name="keywords" content="full stack web developer ,   web developer , full stack web developer ">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="30 days">
+    <meta name="author" content="ABU JAFOR">
+
+    <title>Bootstrap Component </title>
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+
+    <!-- css links -->
+     <link rel="stylesheet" href="css/bootstrap-icons.css">
+     <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/media.css">
+
+</head>
+<body>
+   <!-- header start -->
+    <header>
+        <div class="container pad_0">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary mt-2">
+                <div class="container ">
+                  <a class="navbar-brand" href="index.html"><img src="img/favicon-32x32.png" alt="logo" ></a>
+
+                      <!-- search -->
+                      <form class="d-flex d-lg-none d-md-block justify-content-end" role="search">
+                        <input class="form-control me-2 f_custom" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+                      </form>
+
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#NSC" aria-controls="NSC" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="NSC">
+                    <ul class="navbar-nav ms-auto">
+                      <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <!-- dropdown -->
+                      <li class="nav-item ms-4 dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Product</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Cloth</a></li>
+                                <li><a class="dropdown-item" href="#">Shoes</a></li>
+                                <li><a class="dropdown-item" href="#">Toys</a></li>
+                                <li><a class="dropdown-item" href="#">Fahion</a></li>
+                            </ul>
+                      </li>
+                      <li class="nav-item ms-4 dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" >Tranding</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Last Week</a></li>
+                                <li><a class="dropdown-item" href="#">Last Month</a></li>
+                                <li><a class="dropdown-item" href="#">Last six Month</a></li>
+                            </ul>
+                      </li>
+                      <li class="nav-item ms-4 dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" >Contact</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Email</a></li>
+                            <li><a class="dropdown-item" href="#">Facebook Page</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item ms-4">
+                        <a class="nav-link active" href="#">About us</a>
+                      </li>
+                    </ul>
+                    
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+   <!-- header end -->
+
+    <!-- slider start -->
+    <div class="container">
+      <div class="row justify-content-center bg-body-tertiary my-3">
+        <div class="col-sm-6">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/lay1.jpg" class="d-block w-100" alt="img">
+              </div>
+              <div class="carousel-item">
+                <img src="img/lay2.jpg" class="d-block w-100" alt="img">
+              </div>
+              <div class="carousel-item">
+                <img src="img/lay3.jpg" class="d-block w-100" alt="img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- slider end -->
+    <!-- accordian part start -->
+    <section>
+      <div class="container pad_0">
+        <div class="accordion" id="accordion1">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                Our Mission
+              </button>
+            </h2>
+            <div id="collapse1" class="accordion-collapse collapse " data-bs-parent="#accmiss">
+              <div class="accordion-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias maxime velit saepe quod vel necessitatibus dolores beatae placeat excepturi enim!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus tempore reprehenderit nam vitae distinctio saepe facilis dolores minima consequuntur excepturi.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                Our Achivment
+              </button>
+            </h2>
+            <div id="collapse2" class="accordion-collapse collapse " data-bs-parent="#accmiss">
+              <div class="accordion-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias maxime velit saepe quod vel necessitatibus dolores beatae placeat excepturi enim!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus tempore reprehenderit nam vitae distinctio saepe facilis dolores minima consequuntur excepturi.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                Which service we provide
+              </button>
+            </h2>
+            <div id="collapse3" class="accordion-collapse collapse " data-bs-parent="#accmiss">
+              <div class="accordion-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias maxime velit saepe quod vel necessitatibus dolores beatae placeat excepturi enim!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus tempore reprehenderit nam vitae distinctio saepe facilis dolores minima consequuntur excepturi.</p>
+              </div>
+            </div>
+          </div>
+       </div>
+      </div>
+    </section>
+    <!-- accordian end -->
+     <!-- offcanvas start -->
+      <section class="pad_0 ">
+        <!-- left -->
+        <div class="container">
+          <button class="btn btn-primary my-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcan1" aria-controls="offcan1">Client Review</button>
+
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true"  tabindex="1" id="offcan1" aria-labelledby="offcanscroll">
+              <div class="offcanvas-header">
+                <h4 class="offcanvas-title" id="offcanscroll">About Work</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-level="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <p> He is a good developer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, voluptas.</p>
+              </div>
+              <div class="offcanvas-header">
+                <h4 class="offcanvas-title" id="offcanscroll">About Comitment </h4>
+              </div>
+              <div class="offcanvas-body">
+                <p> He is a good developer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, voluptas.</p>
+              </div>
+            </div>
+              <!-- right -->
+              
+          <button class="btn btn-primary me-auto " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcan2" aria-controls="offcan2">Local Client Review</button>
+
+                <div class="offcanvas offcanvas-end" data-bs-scroll="true"  tabindex="-1" id="offcan2" aria-labelledby="offcanscroll2">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanscroll2">about work</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis unde placeat ut deserunt fuga eos, tempore ipsa nemo facere ullam!</p>
+                  </div>
+                </div>    
+      </section>
+   
+   
+    <!-- js links -->
+     <script src="js/bootstrap.bundle.min.js"></script>
+     <script src="js/script.js"></script>
+</body>
+</html>
